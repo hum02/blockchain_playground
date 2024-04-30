@@ -5,7 +5,8 @@ namespace Config {
   export const BASE_URL = "/api"
   export const AUTH_TOKEN_URL = "/auth-tokens"
   export const EVENTS_URL = `/neptune/trace-programs/${PROGRAM_ID}/events`
-  
+  export const GENERATE_WALLET_URL = `/wallets`
+
   // EVENT NAMES
   export const CREATE = "Create"
   export const UPDATE = "Update"
